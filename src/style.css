@@ -1,0 +1,89 @@
+/* styles.css */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imgs/Paddyspub.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    font-family: "Comic Sans MS";
+  }
+  
+
+  h1{
+    color: black;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+
+  h2{
+    margin-bottom: 20px;
+  }
+
+  nav{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+
+  #homeContent{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    opacity: 1;
+  }
+
+  #aboutContent, #menuContent{
+    background-color: white;
+    border: 10px solid yellow;
+    margin-top: 50px;
+
+  }
+
+  #aboutContent{
+    display: flex;
+    gap: 300px;
+  }
+
+  #menuContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  p{
+    font-size: 20px;
+    padding: 50px;
+    color: black;
+  }
+
+
+  img{
+    width: 550px;
+    height: 550px;
+  }
+
+  .pic{
+    margin-right: 50px;
+  }
+
+  button{
+    font-size: 50px;
+    color: blue;
+    text-decoration: underline;
+
+    background-color: Transparent;
+    border: none;
+    outline:none;
+  }
+
+  button:hover{
+    color: yellow;
+  }
